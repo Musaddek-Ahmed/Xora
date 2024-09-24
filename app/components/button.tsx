@@ -15,7 +15,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({icon , children, href, containerClassName, onClick, markerFill}) => {
 const Inner = () => (
         <>
-          <span className='relative flex items-center min-h-[60px] px-4 g4 rounded-2xl inner-before group-hover:before:opacity-100 overflow-hidden cursor-pointer'>
+          <span className='w-fit relative flex items-center min-h-[60px] px-4 g4 rounded-2xl inner-before group-hover:before:opacity-100 overflow-hidden cursor-pointer'>
             <span className='absolute -left-[1px]'>
               <Marker fill={markerFill}/>
             </span>

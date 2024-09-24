@@ -30,7 +30,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" /> {/* Reference to the favicon */}
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         
         {children}
