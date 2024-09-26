@@ -5,6 +5,8 @@ import Feature from "./components/feature";
 import Pricing from "./components/pricing";
 import Faq from "./components/faq";
 import Testimonials from "./components/testimonials";
+import Download from "./components/download";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
 <Pricing/>
 <Faq/>
 <Testimonials/>
+<Download/>
+<Footer/>
 </div>
   );
 }
