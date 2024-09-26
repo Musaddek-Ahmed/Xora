@@ -117,6 +117,12 @@ const Pricing = () => {
                             <div className='mt-10 flex w-full justify-center'>
                                 <Button icon={plan.icon}>Get Started</Button>
                             </div>
+
+                            {index === 1 && (
+                                <p className="small-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
+                                    Limited time offer
+                                </p>
+                            )}
                         </div>
                     ))}
                 </div>
